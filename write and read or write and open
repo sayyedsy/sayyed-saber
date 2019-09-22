@@ -1,0 +1,8 @@
+name=input("enter file name=")
+file1=open(name,"w")
+data=input("enter data")
+file1.write(data)
+print("successfull ")
+file1=open(name,"r")
+data=file1.read()
+print(data)

@@ -1,0 +1,36 @@
+"""file1=open("sayyed.txt","a")
+file1.write("is my name above mentaion")
+print("yes")
+file1.close()"""
+"""file1=open("sayyed.txt","r")
+data=file1.read()
+print(data)"""
+"""file1=open("sayyed.txt","a+")
+file1.write("\n sayyed saber yusuf")
+print(data)"""
+"""file1=open("sayyed.txt","w")
+file1.write("my name is")
+print("yes")
+file1.close()"""
+"""file1=open("sayyed.txt","r")
+data=file1.read()
+print(data)
+file1.close()"""
+"""name=input("enter file name")
+file1=open(name,"w")
+data=input("enter text ")
+file1.write(data)
+print("sucessfull")"""
+"""name=input("enter file name")
+file1=open(name,"r")
+data=file1.read()
+print(data)"""
+name=input("enter file name=")
+file1=open(name,"a")
+data=input("enter ext to add in file=")
+file1.write(data)
+print("hogya")
+file1.close()
+file1=open(name,"r")
+data=file1.read()
+print(data)

@@ -1,0 +1,4 @@
+file1=open("sayyed.txt","w")
+file1.write("sayyed saber yusuf")
+print("sucessfull created")
+file1.close()

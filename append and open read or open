@@ -1,0 +1,13 @@
+#appen the file
+name=input("enter file name=")
+file1=open(name,"a")
+data=input("enter ext to add in file=")
+file1.write(data)
+print("hogya")
+file1.close()
+
+
+#open the file
+file1=open(name,"r")
+data=file1.read()
+print(data)
