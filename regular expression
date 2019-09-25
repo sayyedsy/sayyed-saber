@@ -1,0 +1,9 @@
+import re
+count=0
+data=input("enter data=")
+name=input("which word u want find=")
+pattern=re.compile(name)
+match=pattern.finditer(data)
+for i in match:
+	count=count+1
+print(name,"is repeted for",count,"times")
