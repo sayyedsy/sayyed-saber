@@ -1,0 +1,11 @@
+a=input("enter string=")
+def s(a):
+	rev=""
+	for i in a:
+		rev=i+rev
+	print(rev)
+	if rev==a:
+		print("string is palindrom")
+	else:
+		print("string is not palindrom")
+s(a)
